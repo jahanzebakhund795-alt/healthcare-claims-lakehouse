@@ -1,0 +1,33 @@
+# Raw generated data (re-creatable via `make generate`)
+data/raw/
+
+# DuckDB write-ahead logs (the .duckdb file itself is committed for demo)
+warehouse/*.wal
+warehouse/*.duckdb.wal
+
+# dbt artifacts
+dbt/target/
+dbt/logs/
+dbt/dbt_packages/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+build/
+dist/
+
+# Environments
+.venv/
+venv/
+.env
+
+# Tooling caches
+.pytest_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# OS
+.DS_Store

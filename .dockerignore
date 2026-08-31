@@ -1,0 +1,13 @@
+.git
+.venv
+venv
+data/raw
+dbt/target
+dbt/logs
+dbt/dbt_packages
+warehouse/*.wal
+.pytest_cache
+.ruff_cache
+__pycache__
+*.egg-info
+.DS_Store
